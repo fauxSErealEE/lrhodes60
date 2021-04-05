@@ -1,0 +1,61 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "echoCommand": true,
+    "tasks": [
+        // {
+        //     "label": "build helloworld",
+        //     "type": "shell",
+        //     "command": "gcc",
+        //     "args": [
+        //         "-g",
+        //         "-o",
+        //         "helloworld",
+        //         "helloworld.c"
+        //     ],
+        //     "group": {
+        //         "kind": "build",
+        //         "isDefault": true
+        //     },
+        //     "problemMatcher": []
+        // },
+        {
+            "label": "clean helloworld",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/helloworld"
+            },
+            "group": "build",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "label": "build helloworld",
+            "command": "make",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceRoot}/helloworld"
+            },
+            "group": "build",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "label": "configure helloworld",
+            "command": "make",
+            "args": [
+                "configure"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/helloworld"
+            },
+            "group": "build",
+            "type": "shell",
+            "problemMatcher": []
+        }
+    ]
+}

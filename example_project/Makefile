@@ -1,0 +1,3 @@
+OBJ += example.c
+
+include
