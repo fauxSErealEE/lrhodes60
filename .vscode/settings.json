@@ -1,0 +1,37 @@
+{
+    "files.associations": {
+       "*.h": "c",
+       "*.code": "c",
+       "*.tcc": "c",
+       "ratio": "c",
+       "system_error": "c",
+       "type_traits": "c",
+       "*.inc": "c",
+       "bitset": "c",
+       "future": "c",
+       "array": "c",
+       "chrono": "c",
+       "functional": "c",
+       "tuple": "c",
+       "utility": "c",
+       "typeindex": "c",
+       "typeinfo": "c",
+       "initializer_list": "c",
+       "numeric": "c",
+       "rope": "c",
+       "slist": "c",
+       "thread": "c",
+       "cstdbool": "c",
+       "valarray": "c",
+       "algorithm": "c"
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+     
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+  
+    "python.linting.enabled": false,
+    "window.zoomLevel": -1,
+    "terminal.integrated.cwd": "C:\\Users\\logan\\Documents\\Logan\\VSCode\\projects"
+}
